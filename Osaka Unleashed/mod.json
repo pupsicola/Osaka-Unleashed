@@ -1,0 +1,55 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Options",
+      "Elements": [
+	  		{
+		"Name": "IncludeDir1",
+		"DisplayName": "Chiyo over Chip",
+		"Description": [
+		"Replaces Chip with Chiyo-chan.",
+				],
+            "Type": "CheetoChip",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": "./CheetoChip/"
+		},
+		{
+		"Name": "IncludeDir2",
+		"DisplayName": "Funny Hat",
+		"Description": [
+		"Gives Osaka her funny neko hat.",
+				],
+            "Type": "FunnyHat",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": "./FunnyHat/"
+		}
+      ]
+    }
+  ],
+  "Enums": {
+    "CheetoChip": [
+      {
+        "DisplayName": "On",
+        "Value": "./CheetoChip/On"
+      },
+      {
+        "DisplayName": "Off",
+        "Value": "./CheetoChip/Off"
+      }
+    ],
+	 "FunnyHat": [
+      {
+        "DisplayName": "On",
+        "Value": "./FunnyHat/On",
+      },
+      {
+        "DisplayName": "Off",
+        "Value": "./FunnyHat/Off",
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
